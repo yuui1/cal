@@ -1,0 +1,61 @@
+
+.content{
+    /*背景图片占全屏
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url("https://thumbnail0.baidupcs.com/thumbnail/5abc95c810f7275d497a83da452fd433?fid=2620113302-250528-969946412904920&time=1494554400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zfsIcCNn%2Beawo3WsEGXf9%2Ftrr8E%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=3047970350918931071&dp-callid=0&size=c710_u400&quality=100");
+    background-repeat: repeat;
+}
+.screen{
+    background-color: #ffffff;
+    border-radius: 3px;
+    text-align: right;
+    width: 720rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-bottom: 30rpx;
+    margin-top: 30rpx;
+    padding-right: 10rpx;
+    word-break:break-all;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: row;
+    font-size: 60rpx;
+    font-weight: 700;
+}
+.item{
+    width: 160rpx;
+    min-height: 150rpx;
+    line-height: 150rpx;
+    padding-left: 3rpx;
+    padding-right: 3rpx;
+    margin: 10rpx;   
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 0 1rpx 1rpx rgba(0, 0, 0, .3)
+}
+.orange{
+    border: 1px solid sandybrown;
+    color: #ffffff;
+    background-color: orange;
+}
+.orange:active{ 
+    background-color:darkorange;
+}
+.blue{
+    border: 1px solid cadetblue;
+    color: #ffffff;
+    background-color: cadetblue;
+}
+.blue:active{ 
+    background-color:darkcyan;
+}
